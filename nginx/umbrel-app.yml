@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: nginx
+name: Nginx
+tagline: WWW Serwer
+icon: https://nginx.org/img/njs_icon.png
+category: media
+version: "1.0.0"
+port: 580
+description: >-
+  Nginx.
+developer: Nginx Inc.
+website: https://nginx.org
+submitter: Umbrel
+submission: https://github.com/getumbrel/umbrel-hello-world-app
+repo: https://github.com/getumbrel/umbrel-hello-world-app
+support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+gallery:
+  - https://jakubmedia.com/umbrel/gallery.jpg
+  - https://jakubmedia.com/umbrel/gallery.jpg
+  - https://jakubmedia.com/umbrel/gallery.jpg
+releaseNotes: >-
+  Pierwsza wersja aplikacji Nginx jako usługa w kontenerze Docker.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
