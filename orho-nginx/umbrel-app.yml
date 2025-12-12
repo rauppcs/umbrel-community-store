@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: nginx
+id: orho-nginx
 name: Nginx
 tagline: WWW Serwer
 icon: https://nginx.org/img/njs_icon.png
