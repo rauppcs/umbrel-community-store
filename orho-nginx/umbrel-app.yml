@@ -4,7 +4,7 @@ name: Nginx
 tagline: WWW Serwer
 icon: https://nginx.org/img/njs_icon.png
 category: media
-version: "1.0.4"
+version: "1.0.5"
 port: 580
 description: >-
   Nginx.
