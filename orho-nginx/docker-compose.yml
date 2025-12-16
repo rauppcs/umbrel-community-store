@@ -11,5 +11,5 @@ services:
     restart: unless-stopped
 
     volumes:
-      - "${APP_DATA_DIR}/www/html:/usr/share/nginx/html:ro"
-      - "${APP_DATA_DIR}/nginx:/etc/nginx:ro"
+      - "${APP_DATA_DIR}/www/html:/usr/share/nginx/html"
+      - "${APP_DATA_DIR}/nginx:/etc/nginx"
