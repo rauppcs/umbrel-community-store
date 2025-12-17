@@ -1,15 +1,11 @@
 version: "3.7"
 
 services:
-  app_proxy:
-    environment:
-      APP_HOST: orho-nginx_web_1
-      APP_PORT: 80
-
   web:
     image: nginx:latest
     restart: unless-stopped
-
+    ports:
+      - "8081:80"
     volumes:
       - "${APP_DATA_DIR}/www/html:/usr/share/nginx/html:ro"
       - "${APP_DATA_DIR}/nginx/conf.d:/etc/nginx/conf.d:ro"
