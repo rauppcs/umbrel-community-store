@@ -4,8 +4,8 @@ name: Nginx
 tagline: WWW Serwer
 icon: https://nginx.org/img/njs_icon.png
 category: media
-version: "1.0.8"
-port: 580
+version: "1.0.9"
+port: 8080
 description: >-
   Nginx.
 developer: Nginx Inc.
