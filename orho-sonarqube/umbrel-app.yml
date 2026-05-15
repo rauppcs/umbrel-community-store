@@ -1,0 +1,70 @@
+manifestVersion: 1
+id: orho-sonarqube
+category: developer
+name: SonarQube
+version: "25.1.0"
+tagline: Continuous code quality and security analysis
+description: >-
+  SonarQube Community Build is a self-hosted, open-source platform for
+  continuous inspection of code quality and security. It performs static
+  code analysis to detect bugs, code smells, and security vulnerabilities
+  across 30+ programming languages including Java, JavaScript, TypeScript,
+  Python, C#, Go, Kotlin, Ruby, PHP, and many more.
+
+
+  Features:
+
+  - Detect bugs and code smells before they hit production
+
+  - Identify security vulnerabilities and security hotspots
+
+  - Track technical debt and code coverage over time
+
+  - Integrate with your CI/CD pipeline via the SonarScanner CLI
+
+  - Quality Gates to enforce minimum quality standards
+
+  - Beautiful web dashboard to visualize project health
+
+
+  ⚠️ IMPORTANT NOTES:
+
+
+  1. RESOURCE REQUIREMENTS: SonarQube needs at least 2GB of RAM (4GB+ recommended).
+  It will NOT run well on a Raspberry Pi 4 with less than 4GB RAM.
+
+
+  2. ARCHITECTURE: The official SonarQube image supports amd64 and arm64.
+  It will not run on 32-bit ARM (older Raspberry Pi).
+
+
+  3. FIRST LOGIN: After installation, open the app and log in with
+  username "admin" and password "admin". You will be prompted to change
+  the password immediately.
+
+
+  4. STARTUP TIME: SonarQube takes 2-5 minutes to fully start on the first
+  run as it initializes its embedded H2 database (and longer on slower hardware).
+  If you see a "Bad Gateway" error, wait a few minutes and refresh.
+
+
+  5. PRODUCTION USE: The embedded H2 database is included for evaluation only.
+  For production workloads, this app could be extended with PostgreSQL.
+
+releaseNotes: >-
+  Initial release of SonarQube Community Build for Umbrel.
+developer: SonarSource
+website: https://www.sonarsource.com/products/sonarqube/
+dependencies: []
+repo: https://github.com/SonarSource/sonarqube
+support: https://community.sonarsource.com/
+port: 9000
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"
+submitter: orho
+submission: https://github.com/rauppcs/umbrel-community-store
